@@ -3,11 +3,11 @@ let Database = require("./async-db");
 let cTable = require("console.table");
 
 const db = new Database({
-    host: process.env.DB_HOST,
+    host: "localhost",
     port: 3306,
     user: process.env.DB_USER,
     password: process.env.DB_PASS,
-    database: process.env.DB_NAME
+    database: "companyDB"
   });
   
 async function getManagerNames() {
