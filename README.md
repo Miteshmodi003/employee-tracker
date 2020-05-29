@@ -5,6 +5,9 @@ This command-line application manages a company's employees using node, inquirer
 You need to set up your MySQL database before you can run the code. 
 
     1. Download and unzip the code.
+        a. In the project root directory, using your git terminal, run "npm install mysql"
+        b. Run "npm install inquirer".
+        c. Run "npm install console.table".
     2. In your "employee-tracker" directory there is a "db" directory. In that directory there are two files: companydb.sql and seed.sql. 
         a. Open your MySQL Workbench and run companydb.sql to create the database and tables.
         b. Then run seed.sql to populate the database with some data.
